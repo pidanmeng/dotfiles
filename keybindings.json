@@ -641,22 +641,22 @@
 	{
 		"key": "q l",
 		"command": "workbench.action.closeEditorsToTheRight",
-		"when": "editorFocus && vim.active && !inDebugRepl && editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
 	},
 	{
 		"key": "q h",
 		"command": "workbench.action.closeEditorsToTheLeft",
-		"when": "editorFocus && vim.active && !inDebugRepl && editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
 	},
 	{
 		"key": "q o",
 		"command": "workbench.action.closeOtherEditors",
-		"when": "editorFocus && vim.active && !inDebugRepl && editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
 	},
 	{
 		"key": "q q",
 		"command": "workbench.action.closeActiveEditor",
-		"when": "editorFocus && vim.active && !inDebugRepl && editorTextFocus && editorLangId == 'magit' && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
 	},
 	{
 		"key": "ctrl+d",
