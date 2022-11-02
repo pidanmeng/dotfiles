@@ -31,3 +31,5 @@ nnoremap N Nzzzv
 " multiple-line up and down
 noremap K 5k
 noremap J 5j
+
+nnoremap M mzJ`z

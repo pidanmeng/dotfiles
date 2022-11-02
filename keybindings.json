@@ -641,22 +641,22 @@
 	{
 		"key": "q l",
 		"command": "workbench.action.closeEditorsToTheRight",
-		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/ && vim.mode != 'Insert'"
 	},
 	{
 		"key": "q h",
 		"command": "workbench.action.closeEditorsToTheLeft",
-		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/ && vim.mode != 'Insert'"
 	},
 	{
 		"key": "q o",
 		"command": "workbench.action.closeOtherEditors",
-		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/ && vim.mode != 'Insert'"
 	},
 	{
 		"key": "q q",
 		"command": "workbench.action.closeActiveEditor",
-		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/"
+		"when": "editorFocus && vim.mode =~ /^(?!SearchInProgressMode|CommandlineInProgress).*$/ && vim.mode != 'Insert'"
 	},
 	{
 		"key": "ctrl+d",
