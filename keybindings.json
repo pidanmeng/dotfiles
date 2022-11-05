@@ -681,4 +681,8 @@
 		"command": "-editor.action.moveSelectionToNextFindMatch",
 		"when": "editorFocus"
 	},
+	{
+		"key": "ctrl+i",
+		"command": "editor.action.showDefinitionPreviewHover"
+	},
 ]

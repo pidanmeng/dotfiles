@@ -568,7 +568,8 @@
 	},
 	"explorer.compactFolders": false,
 	"files.associations": {
-		"*.mdx": "markdown"
+		"*.mdx": "markdown",
+		"*.json": "jsonc"
 	},
 	"markdownlint.config": {
 		// 允许在Markdown中使用inline Html
@@ -578,4 +579,6 @@
 	"[scss]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
+	"codestream.serverUrl": "https://api.codestream.com",
+	"codestream.email": "1092333914@qq.com",
 }
