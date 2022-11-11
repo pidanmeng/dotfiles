@@ -77,12 +77,13 @@
 	"editor.fontSize": 16,
 	"editor.formatOnSaveMode": "modifications",
 	"editor.inlineSuggest.enabled": true,
-	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+    "editor.renderControlCharacters": true,
 	"editor.largeFileOptimizations": false,
 	"editor.lineNumbers": "relative",
 	"editor.minimap.enabled": false,
 	"editor.mouseWheelZoom": false,
-	"editor.renderWhitespace": "boundary",
+	"editor.renderWhitespace": "all",
 	"editor.snippetSuggestions": "bottom",
 	"editor.suggestSelection": "first",
 	"editor.tabCompletion": "on",
@@ -97,7 +98,7 @@
 	"fileheader.LastModifiedBy": "zhang.xingrui",
 	"files.autoGuessEncoding": true,
 	"files.autoSave": "onFocusChange",
-	"files.eol": "\n",
+	"files.eol": "\r\n",
 	"files.exclude": {
 		"**/.classpath": true,
 		"**/.factorypath": true,
@@ -584,5 +585,6 @@
 	"typescript.inlayHints.enumMemberValues.enabled": true,
 	"workbench.colorTheme": "Palenight Italic",
 	"doki.sticker.css": "z-index:100;background-position:100% 98.5%;opacity:.6",
-	"doki.statusbar.name": "皮蛋萌suki(ﾟωﾟ)ﾉ☆ "
+    "doki.statusbar.name": "皮蛋萌suki(ﾟωﾟ)ﾉ☆ ",
+    "editor.tabSize": 2
 }
