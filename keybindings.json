@@ -246,11 +246,6 @@
     "command": "deleteFile",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
   },
-  { // toggle terminal
-    "key": "ctrl+\\",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
   { // maxmize terminal
     "key": "ctrl+m",
     "command": "workbench.action.toggleMaximizedPanel",
@@ -685,4 +680,8 @@
     "key": "ctrl+i",
     "command": "editor.action.showDefinitionPreviewHover"
   },
+  {
+    "key": "ctrl+oem_5",
+    "command": "workbench.action.quickOpenTerm"
+  }
 ]

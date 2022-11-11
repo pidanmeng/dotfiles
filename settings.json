@@ -482,8 +482,14 @@
       ],
     },
     {
+      "key": "t",
+      "name": "Terminal",
+      "type": "command",
+      "command": "workbench.action.terminal.toggleTerminal",
+    },
+    {
       "key": "g",
-      "name": "Source contrl",
+      "name": "Source control",
       "type": "command",
       "command": "workbench.view.scm",
     },
