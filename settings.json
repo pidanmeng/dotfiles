@@ -184,7 +184,7 @@
   "vim.useCtrlKeys": false,
   "vim.useSystemClipboard": true,
   "vim.vimrc.enable": true,
-  "vim.vimrc.path": "c:\\Users\\pidanMoe\\.vsvimrc",
+  "vim.vimrc.path": "C:\\Code\\dotfiles\\.vsvimrc",
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": false,
