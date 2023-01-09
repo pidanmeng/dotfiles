@@ -541,9 +541,17 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": [
+    "iconify",
+    "infoism",
+    "microapp",
     "neovim",
     "pidan",
-    "pidanmeng"
+    "pidanmeng",
+    "pinia",
+    "qiankun",
+    "unocss",
+    "unplugin",
+    "Vite"
   ],
   "figimg.smmsToken": "gWmSgz6e4UKByubffFAgyY2P7lGj0awV",
   "figimg.token": "gWmSgz6e4UKByubffFAgyY2P7lGj0awV",
@@ -576,7 +584,10 @@
   "explorer.compactFolders": false,
   "files.associations": {
     "*.mdx": "markdown",
-    "*.json": "jsonc"
+    "*.json": "jsonc",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
   },
   "markdownlint.config": {
     // 允许在Markdown中使用inline Html
@@ -592,5 +603,16 @@
   "workbench.colorTheme": "Palenight Italic",
   "doki.sticker.css": "z-index:100;background-position:100% 98.5%;opacity:.6",
     "doki.statusbar.name": "皮蛋萌suki(ﾟωﾟ)ﾉ☆ ",
-    "editor.tabSize": 2
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tabSize": 2,
+    "moe.background.path": "https://doki.assets.unthrottled.io/backgrounds/wallpapers/transparent/smol/nadeshiko_dark.png",
+    "emmet.includeLanguages": {
+      "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+    }
 }
